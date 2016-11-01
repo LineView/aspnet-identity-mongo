@@ -1,0 +1,7 @@
+#:C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreTests\CoreTests.xproj
+C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreTests\CoreTests.xproj|C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\Microsoft.AspNetCore.Identity.MongoDB\Microsoft.AspNetCore.Identity.MongoDB.xproj
+#:C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreIntegrationTests\CoreIntegrationTests.xproj
+C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreIntegrationTests\CoreIntegrationTests.xproj|C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreTests\CoreTests.xproj
+C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreIntegrationTests\CoreIntegrationTests.xproj|C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\Microsoft.AspNetCore.Identity.MongoDB\Microsoft.AspNetCore.Identity.MongoDB.xproj
+C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\CoreTests\CoreTests.xproj|C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\Microsoft.AspNetCore.Identity.MongoDB\Microsoft.AspNetCore.Identity.MongoDB.xproj
+#:C:\Users\Marton\Source\Repos\aspnet-identity-mongo\src\Microsoft.AspNetCore.Identity.MongoDB\Microsoft.AspNetCore.Identity.MongoDB.xproj
