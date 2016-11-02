@@ -19,7 +19,7 @@
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
     <Id>Aspnet.Identity.MongoDB.NugetPackager</Id>
-    <Version>2.1.5</Version>
+    <Version>2.1.6</Version>
     <Title>Aspnet.Identity.MongoDB.NugetPackager</Title>
     <Authors>Marton</Authors>
     <Owners>Marton</Owners>
