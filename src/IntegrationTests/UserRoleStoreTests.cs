@@ -47,6 +47,17 @@
 			var savedUser = Users.FindAll().Single();
 			Expect(savedUser.Roles, Is.Empty);
 			Expect(manager.IsInRole(user.Id, "role"), Is.False);
-		}
-	}
+        }
+
+        [Test]
+        public void AsQueryable_Works()
+        {
+            var manager = GetRoleManager();
+            
+            var queryableRoles = manager.Roles;
+            var roles = queryableRoles.ToList();
+
+            Expect(roles, Is.Not.Null);
+        }
+    }
 }

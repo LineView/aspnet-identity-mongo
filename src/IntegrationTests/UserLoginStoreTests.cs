@@ -96,5 +96,20 @@
 
 			Expect(findUser, Is.Null);
 		}
-	}
+
+        [Test]
+        public void AsQueryable_Works()
+        {
+            var manager = GetUserManager();
+            var login = new UserLoginInfo("provider", "key");
+            var user = new IdentityUser { UserName = "bob" };
+            manager.Create(user);
+            manager.AddLogin(user.Id, login);
+            
+            var queryableUsers = manager.Users;
+            var users = queryableUsers.ToList();
+
+            Expect(users, Is.Not.Empty);
+        }
+    }
 }
